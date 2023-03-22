@@ -1,0 +1,95 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+div.history {
+  width: 300px;
+  padding: 5px;
+  font-family: monospace;
+  display: inline-block;
+}
+
+div.history h3 {
+  margin: 0;
+  padding: 0;
+}
+
+div.history ol {
+  background-color: #f0f0f0;
+  height: 200px;
+  overflow: auto;
+  /* color: #00ff00; */
+  padding-left: 35px;
+  padding-right: 20px;
+}
+
+div.history ol li {
+  cursor: pointer;
+  padding: 5px 5px;
+  /* border-bottom: #00ff00 1px dashed; */
+  border-bottom: #000000 1px dashed;
+}
+
+div.history ol li:hover {
+  background-color: #ffffff;
+  color: #333;
+  box-shadow: #999999 1px 1px 1px;
+}
+
+div.history ol li:last-child {
+  border-bottom: none
+}
+
+div.history ol li span {
+  display: float;
+  float: right;
+  font-weight: bold;
+  font-size: 16px;
+  visibility: hidden;
+}
+
+div.history ol li:hover span {
+  visibility: visible;
+}
+
+div.search-tree {
+  width: 620px;
+  margin-top: 10px;
+  padding: 5px;
+  font-family: monospace;
+  display: block;
+  /* background-color: #f0f0f0; */
+}
+div.search-tree h3 {
+  margin: 0;
+  padding: 0;
+}
+
+div.search-tree div.search-box {
+  background-color: #f0f0f0;
+  height: 250px;
+  overflow: auto;
+}
+
+div.search-tree div ul {
+
+  /* height: 200px; */
+
+  /* color: #00ff00; */
+  padding-left: 20px;
+}
+
+div.search-tree div ul li {
+  cursor: pointer;
+  /* padding: 5px 5px; */
+}
+
+div.search-tree div ul li div.search-item:hover {
+  background-color: #ffffff;
+  color: #333;
+}
